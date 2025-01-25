@@ -67,7 +67,7 @@ if __name__ == "__main__":
     # First, save metadata and hash for the original image
     save_metadata_and_hash(original_image, hash_file)
 
-    # Later, compare a new image with the saved hash
+    
     compare_image_with_hash(new_image, hash_file)  
 
     #new commit
